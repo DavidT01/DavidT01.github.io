@@ -1,0 +1,143 @@
+/* Osnovni blokovi */
+
+html {
+    height: 100%;    
+}
+
+body {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(52, 47, 47);
+    color: white;
+    font-size: 25px;
+}
+
+#leviDeo {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(42, 11, 11);
+}
+
+main {
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(55, 26, 26);
+    font-weight: bolder;
+}
+
+/* Linkovi */
+
+a {
+    font-weight: bolder;
+    color: white;
+    text-decoration-line: none;
+    display: block;
+}
+
+#leviDeo a {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#leviDeo a:hover {
+    background-color: rgb(103, 29, 29);
+}
+
+#prvi {
+    height: 50px;
+    visibility: hidden;
+}
+
+main a {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    text-align: left;
+    width: fit-content;
+}
+
+main a:hover {
+    background-color: rgb(96, 50, 50);
+}
+
+/* Naslovi */
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+/* Godine */
+
+#prviSemestar {
+    display: inline-block;
+}
+
+#drugiSemestar {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#nemaPredmeta1 {
+    visibility: hidden;
+}
+
+.polozen {
+    color: green;
+}
+
+.npolozen {
+    color: red;
+}
+
+/* Stranice predmeta */
+
+#div1 {
+    margin-left: 90px;
+}
+
+/* Greska */
+
+p {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+/* Tabela */
+
+table, th, td {
+    border:rgb(42, 11, 11) 5px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+th, td {
+    width: 100px;
+    height: 40px;
+}
+
+th {
+    color: rgb(230, 200, 200);
+}
+
+.polozen {
+    color: rgb(60, 189, 60);
+}
