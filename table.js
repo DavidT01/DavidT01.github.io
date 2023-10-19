@@ -12,11 +12,11 @@ else {
                 if(field.textContent != '/') {
                     let klasa = field.className;
                     if(klasa.includes("izrada"))
-                        window.location.href = "../view/error/greska.html";
+                        window.location.href = "./greska.html";
                     else if(klasa.includes("dok"))
-                        window.location.href = "../view/subject/" + field.textContent.toLowerCase() + ".html";
+                        window.location.href = "./" + field.textContent.toLowerCase() + ".html";
                     else
-                        window.location.href = "../view/error/nepostojeca.html";
+                        window.location.href = "./nepostojeca.html";
                 }
             });
         }
