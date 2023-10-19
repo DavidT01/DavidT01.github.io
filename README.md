@@ -1,2 +1,1 @@
-# DavidT01.github.io
-MATF kursevi i literatura
+MATF kursevi i materijali
