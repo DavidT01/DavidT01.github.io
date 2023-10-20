@@ -10,7 +10,7 @@ body {
     height: 100%;
     background-color: rgb(52, 47, 47);
     color: white;
-    font-size: 25px;
+    font-size: 1.563em;
 }
 
 #leviDeo {
@@ -45,8 +45,8 @@ a {
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0.938em;
+    padding-bottom: 0.938em;
     text-align: center;
 }
 
@@ -55,14 +55,14 @@ a {
 }
 
 #prvi {
-    height: 50px;
+    height: 3.125em;
     visibility: hidden;
 }
 
 main a {
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-left: 90px;
+    padding: 0.625em;
+    margin-bottom: 1.25em;
+    margin-left: 5.625em;
     text-align: left;
     width: fit-content;
 }
@@ -74,10 +74,10 @@ main a:hover {
 /* Naslovi */
 
 h2 {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-left: 50px;
-    font-size: 35px;
+    margin-top: 3.125em;
+    margin-bottom: 2.5em;
+    margin-left: 3.125em;
+    font-size: 2.188em;
 }
 
 /* Godine */
@@ -88,7 +88,7 @@ h2 {
 
 #drugiSemestar {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 3.125em;
 }
 
 #nemaPredmeta1 {
@@ -106,32 +106,32 @@ h2 {
 /* Stranice predmeta */
 
 #div1 {
-    margin-left: 90px;
+    margin-left: 5.625em;
 }
 
 /* Greska */
 
 p {
-    margin-top: 200px;
-    margin-left: 50px;
+    margin-top: 12.5em;
+    margin-left: 3.125em;
 }
 
 /* Tabela */
 
 table, th, td {
-    border:rgb(42, 11, 11) 5px solid;
+    border:rgb(42, 11, 11) 0.313em solid;
     border-collapse: collapse;
     text-align: center;
 }
 
 table {
-    margin-top: 80px;
-    margin-left: 100px;
+    margin-top: 5em;
+    margin-left: 6.25em;
 }
 
 th, td {
-    width: 100px;
-    height: 40px;
+    width: 6.25em;
+    height: 2.5em;
 }
 
 th {
