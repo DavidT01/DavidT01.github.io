@@ -2,6 +2,7 @@
 
 html {
     height: 200%;
+    width: 100%;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     color: white;
     font-size: 1.563em;
     height: 100%;
+    width: 100%;
 }
 
 #leviDeo {
