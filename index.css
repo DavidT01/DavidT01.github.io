@@ -96,7 +96,7 @@ h2 {
     visibility: hidden;
 }
 
-.polozen {
+.polozen, #nemaPredmeta {
     color: green;
 }
 
