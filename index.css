@@ -83,11 +83,13 @@ h2 {
 
 #prviSemestar {
     display: inline-block;
+    font-size: 1.7em;
 }
 
 #drugiSemestar {
     display: inline-block;
     margin-left: 3.125em;
+    font-size: 1.7em;
 }
 
 #nemaPredmeta1 {
